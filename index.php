@@ -11,7 +11,7 @@ var email=document.myform.email.value;
 var password=document.myform.password.value;  
   
 if (email==null || email==""){  
-  alert("email can't be blank");  
+  alert("username can't be blank");  
   return false;  
 }else if(password.length<6){  
   alert("Password must be at least 6 characters long.");  
@@ -81,17 +81,15 @@ if (email==null || email==""){
 
 
 <li class="nav-item">
-	  <a class="nav-link" href="#">Login</a>
+	  <a class="nav-link" href="loginpage.php">Login</a>
 	</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 	<li class="nav-item">
 	  <a class="nav-link" href="newform.php">Sign up</a>
 	</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 	<li class="nav-item">
-	  <a class="nav-link" href="#">Contact</a>
+	  <a class="nav-link" href="#">Contact Us</a>
 	</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-<form class="form-inline">
-    <input class="form-control mr-sm-2" type="text" placeholder="Search">
-    <button class="btn btn-primary" type="submit">Search</button></form></ul></nav>
+    </ul></nav>
 
 
 
@@ -177,59 +175,22 @@ if (email==null || email==""){
 		<video width="100%" controls>
 		<source src="trailor.mp4"></video>
 		</div>
-		<div class="card">
-		<form name="myform" onsubmit="return validateform()" method="post">
+		
 
-    <center><p id="icon" style="text-shadow: rgb(48, 117, 165) 0px 0px 0px, rgb(49, 119, 168) 1px 1px 0px, rgb(50, 122, 172) 2px 2px 0px, rgb(51, 124, 175) 3px 3px 0px, rgb(52, 127, 179) 4px 4px 0px, rgb(53, 129, 182) 5px 5px 0px, rgb(54, 132, 186) 6px 6px 0px, rgb(55, 134, 189) 7px 7px 0px, rgb(56, 137, 193) 8px 8px 0px, rgb(57, 139, 196) 9px 9px 0px, rgb(58, 142, 200) 10px 10px 0px, rgb(59, 144, 203) 11px 11px 0px, rgb(60, 147, 207) 12px 12px 0px, rgb(61, 149, 210) 13px 13px 0px, rgb(62, 152, 214) 14px 14px 0px, rgb(63, 154, 217) 15px 15px 0px, rgb(64, 157, 221) 16px 16px 0px, rgb(65, 159, 224) 17px 17px 0px, rgb(66, 162, 228) 18px 18px 0px, rgb(67, 164, 231) 19px 19px 0px; font-size: 76px; color: rgb(240, 255, 241); height: 133px; width: 133px; line-height: 133px; border-radius: 42%; text-align: center; background-color: rgb(68, 167, 235);"> Oxy </p></center>
+   
 
-    <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail" name="email">
-
-    <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password" name="password">
-
-    <div class="d-flex justify-content-between">
-        <div>
-            <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
-                <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
-            </div>
-        </div>
-        <div>
-            <a href="">Forgot password?</a>
-        </div>
-    </div>
-
-<button class="btn btn-info btn-block my-4" type="submit">Sign in</button>
-
-    <div class="text-center">
-        <p>Not a member?
-            <a href="">Register</a>
-        </p>
-
-        <p><b>or sign in with:</b></p>
-        <a type="button" class="light-blue-text mx-2">
-            <i class="fab fa-facebook-f"></i>
-        </a>
-        <a type="button" class="light-blue-text mx-2">
-            <i class="fab fa-twitter"></i>
-        </a>
-        <a type="button" class="light-blue-text mx-2">
-            <i class="fab fa-linkedin-in"></i>
-        </a>
-        <a type="button" class="light-blue-text mx-2">
-            <i class="fab fa-github"></i>
-        </a>
-    </div>
-</form>
-</div>
 <div class="card">
 <h2><U>Buy Our Merchandise Here</u></h2>
 <img src="merchandise.jpg" style="height:400px">
 </div>
 </div>
-           <marquee><b><span id="txt"></span></b></marquee><script>  
+           <marquee><b><span id="txt"></span></b></marquee>
+<script>  
 var today=new Date();  
 document.getElementById('txt').innerHTML=today;  
-</script> 
+           </script> </div>
+<div class="card">
+        </div>
 
 		
 		
