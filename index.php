@@ -146,7 +146,7 @@ if (email==null || email==""){
 	   </div>
 	   <div class="card">
 	   	   
-	   <h2><u>Gallery</u></h2>
+           <h2><a href="newsite.html"  style="text-decoration:none">Gallery(Tap to see full screen)</a></h2>
 	   <p>Here are some more images about our gym.</p>
 	   <img src="gallery2.gif" class="rounded-circle" style="width:100%">
 	   </div>
