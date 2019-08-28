@@ -60,6 +60,109 @@ if (email==null || email==""){
     i{
         color:white;
     }
+     a1{
+        position:absolute;
+        top:200%;
+        left:85%;
+        transform:translate(-50%,-50%);
+        color:white;
+        padding:30px 60px;
+        font-size:30px;
+        letter-spacing:2px;
+        text-transform:uppercase;
+        text-decoration:none;
+        box-shadow:0 20px 50px rgba(0,0,0,0.5);
+        overflow:hidden;
+    }
+    a1:before
+    {
+        content:'';
+        position:absolute;
+        top:2px;
+        left:2px;
+        bottom:2px;
+        width:50%;
+    
+    }
+    a1 span:nth-child(1)
+    {
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:2px;
+        background:linear-gradient(to right, #0c002b, #1779ff);
+        animation:animate1 2s linear infinite;
+        
+    }
+    @keyframes animate1{
+        0%{
+            transform:translateX(-100%);
+        }
+         100%{
+            transform:translateX(100%);
+        }
+    }
+     a1 span:nth-child(2)
+    {
+        position:absolute;
+        top:0;
+        right:0;
+        width:2px;
+        height:100%;
+        background:linear-gradient(to bottom, #0c002b, #1779ff);
+        animation:animate2 2s linear infinite;
+        animation-delay:1s;
+    }
+    @keyframes animate2{
+        0%{
+            transform:translateY(-100%);
+        }
+         100%{
+            transform:translateY(100%);
+        }
+    }
+    
+     a1 span:nth-child(3)
+    {
+        position:absolute;
+        bottom:0;
+        left:0;
+        width:100%;
+        height:2px;
+        background:linear-gradient(to left, #0c002b, #1779ff);
+        animation:animate3 2s linear infinite;
+    }
+    @keyframes animate3{
+        0%{
+            transform:translateX(100%);
+        }
+         100%{
+            transform:translateX(-100%);
+        }
+    }
+     a1 span:nth-child(4)
+    {
+        position:absolute;
+        top:0;
+        left:0;
+        width:2px;
+        height:100%;
+        background:linear-gradient(to top, #0c002b, #1779ff);
+        animation:animate4 2s linear infinite;
+         animation-delay:1s;
+    }
+      @keyframes animate4{
+        0%{
+            transform:translateY(100%);
+        }
+         100%{
+            transform:translateY(-100%);
+        }
+    }
+    
+    
+    
    </style> 
     
     
@@ -85,11 +188,18 @@ if (email==null || email==""){
 	</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 	<li class="nav-item">
 	  <a class="nav-link" href="newform.php">Sign up</a>
-	</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 	<li class="nav-item">
-	  <a class="nav-link" href="#">Contact Us</a>
+        <b><a class="nav-link" href="#" style="font-size:30px">Contact Us</a></b>
 	</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    </ul></nav>
+    </ul><a1 href="#">
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+    <b><center>+91</center> 9810075908</b>
+</a1></nav>
 
 
 
