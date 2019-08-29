@@ -1,10 +1,13 @@
 <html>
 <head>
+     
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
      <script>  
 function validateform(){  
 var email=document.myform.email.value;  
@@ -68,10 +71,8 @@ if (email==null || email==""){
         color:white;
         padding:30px 60px;
         font-size:30px;
-        letter-spacing:2px;
-        text-transform:uppercase;
         text-decoration:none;
-        box-shadow:0 20px 50px rgba(0,0,0,0.5);
+        box-shadow:0 20px 50px 30px ;
         overflow:hidden;
     }
     a1:before
@@ -90,9 +91,9 @@ if (email==null || email==""){
         top:0;
         left:0;
         width:100%;
-        height:2px;
-        background:linear-gradient(to right, #0c002b, #1779ff);
-        animation:animate1 2s linear infinite;
+        height:4px;
+        background:linear-gradient(to right, yellow, #1779ff);
+        animation: animate1 2s linear infinite;
         
     }
     @keyframes animate1{
@@ -108,9 +109,9 @@ if (email==null || email==""){
         position:absolute;
         top:0;
         right:0;
-        width:2px;
+        width:4px;
         height:100%;
-        background:linear-gradient(to bottom, #0c002b, #1779ff);
+        background:linear-gradient(to bottom, yellow, #1779ff);
         animation:animate2 2s linear infinite;
         animation-delay:1s;
     }
@@ -129,8 +130,8 @@ if (email==null || email==""){
         bottom:0;
         left:0;
         width:100%;
-        height:2px;
-        background:linear-gradient(to left, #0c002b, #1779ff);
+        height:4px;
+        background:linear-gradient(to left, #0c002b, yellow);
         animation:animate3 2s linear infinite;
     }
     @keyframes animate3{
@@ -146,9 +147,9 @@ if (email==null || email==""){
         position:absolute;
         top:0;
         left:0;
-        width:2px;
+        width:4px;
         height:100%;
-        background:linear-gradient(to top, #0c002b, #1779ff);
+        background:linear-gradient(to top, yellow, #1779ff);
         animation:animate4 2s linear infinite;
          animation-delay:1s;
     }
@@ -191,14 +192,15 @@ if (email==null || email==""){
 	</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 	<li class="nav-item">
-        <b><a class="nav-link" href="#" style="font-size:30px">Contact Us</a></b>
+        <b><a class="nav-link" href="#" style="font-size:30px">Contact Us
+</a></b>
 	</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
     </ul><a1 href="#">
 <span></span>
 <span></span>
 <span></span>
 <span></span>
-    <b><center>+91</center> 9810075908</b>
+    <b><center><i class="fa fa-phone"></i>+91</center> 9810075908</b> 
 </a1></nav>
 
 
