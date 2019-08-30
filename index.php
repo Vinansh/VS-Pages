@@ -254,7 +254,7 @@ if (email==null || email==""){
 	   <div class="leftcolumn">
 	   <div class="card">
 	   <h2>Glance</h2>
-	   <p>Oxygen Gym is the best gym in india and is running since 1990, the best professional trainers are the most attractive feature of our gym. since 1990,we are providing the best training and producing a healthy nation.</p>
+	   <p>Oxygen Gym is the best gym in india and is running since 1990, the best professional trainers are the most attractive feature of our gym. since 1990,we are providing the best training and producing a healthy nation check out below the new collection for all of you.</p>
 	   </div>
 	   <div class="card">
 	   	   
