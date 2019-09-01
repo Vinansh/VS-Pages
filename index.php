@@ -177,7 +177,7 @@ if (email==null || email==""){
 	  <a class="nav-link" href="#">Home</a>
 	</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 	<li class="nav-item">
-	  <a class="nav-link" href="#">About Us</a>
+	  <a class="nav-link" href="3D image card effects.html">About Us</a>
 	</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 	<li class="nav-item">
 	  <a class="nav-link" href="#">News</a>
