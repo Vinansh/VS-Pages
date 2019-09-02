@@ -180,7 +180,7 @@ if (email==null || email==""){
 	  <a class="nav-link" href="3D image card effects.html">About Us</a>
 	</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 	<li class="nav-item">
-	  <a class="nav-link" href="#">News</a>
+	  <a class="nav-link" href="ankita.html">News</a>
 	</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 
 
@@ -200,7 +200,7 @@ if (email==null || email==""){
 <span></span>
 <span></span>
 <span></span>
-    <b><center><i class="fa fa-phone"></i>+91</center> 9810075908</b> 
+    <b><center><i class="fa fa-phone"></i>+91</center>9810075908</b> 
 </a1></nav>
 
 
